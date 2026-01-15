@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HangiAltin - En Ucuz BIST Altın ETF'ini Bul</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏆 HangiAltin</h1>
+            <p class="subtitle">BIST Altın ETF Karşılaştırması - Gram Başına Fiyatına Göre En Ucuz Seçeneği Bulun</p>
+        </header>
+
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+        </div>
+
+        <div id="error" class="error hidden"></div>
+
+        <div id="results" class="results hidden">
+            <div id="recommendation" class="recommendation-card"></div>
+            
+            <!-- ETF Karşılaştırma Tablosu -->
+            <div id="baseValueComparison" class="comparison-section" style="margin-bottom: 30px;"></div>
+            
+            <div class="comparison-section">
+                <h2>📊 Tüm ETF Karşılaştırması (Gram Başına Fiyatına Göre)</h2>
+                <div id="etfList" class="etf-list"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
