@@ -1,3 +1,5 @@
+
+
 # HangiAltin - BIST Gold ETF Comparison
 
 A Python backend service to find the cheapest BIST (Borsa İstanbul) gold ETF to buy, similar to hangikredi's approach.
@@ -72,6 +74,11 @@ GET /api/gold-etf/compare
 ### Compare Two Specific ETFs
 ```
 GET /api/gold-etf/compare/{symbol1}/{symbol2}
+```
+
+### Clear Cache (Force Fresh Data)
+```
+POST /api/gold-etf/clear-cache
 ```
 
 ## Quick Start Guide
